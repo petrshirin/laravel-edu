@@ -99,7 +99,16 @@ async function updateTask() {
         }
     )
     if (response.status === 201) {
-        await loadNewTaskList();
+        let result = await response.json()
+        await loadNewTaskList()
+        document.querySelector('#taskFormContainer #task_id').value = result.body.id
+        document.querySelector('#taskFormContainer #name').value = result.body.name
+        document.querySelector('#taskFormContainer #type_name').value = result.body.type.name
+        document.querySelector('#taskFormContainer #place').value = result.body.place
+        document.querySelector('#taskFormContainer #date').value = result.body.date
+        document.querySelector('#taskFormContainer #time').value = result.body.time
+        document.querySelector('#taskFormContainer #duration').value = result.body.duration
+        document.querySelector('#taskFormContainer #comment').value = result.body.comment
 
 
     } else if (response.status === 422) {
