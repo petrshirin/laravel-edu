@@ -2,7 +2,7 @@
 async function saveTask() {
     document.getElementsByClassName('errorsContainer')[0].innerHTML = "";
 
-    if (document.querySelector('#taskFormContainer #task_id').value) {
+    if (document.querySelector('#taskFormContainer #task_id').value !== 0) {
         return updateTask()
     }
 
