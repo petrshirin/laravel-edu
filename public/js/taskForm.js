@@ -99,7 +99,7 @@ async function updateTask() {
         }
     )
     if (response.status === 201) {
-        let result = await response.json()
+        await loadNewTaskList();
 
 
     } else if (response.status === 422) {
