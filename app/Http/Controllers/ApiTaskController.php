@@ -160,10 +160,11 @@ class ApiTaskController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param Request $request
+     * @param int $id
      * @return JsonResponse
      */
-    public function destroy(Request $request, $id)
+    public function destroy(Request $request, int $id)
     {
 
         $task = Task::where('id', $id)->first();

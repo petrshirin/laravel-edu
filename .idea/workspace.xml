@@ -6,20 +6,13 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5fad37-8e2c-4642-a997-4c148ff4eeee" name="Default Changelist" comment="init commit" />
+    <list default="true" id="8e5fad37-8e2c-4642-a997-4c148ff4eeee" name="Default Changelist" comment="fix logout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +178,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Calendar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
@@ -211,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603214770281</updated>
       <workItem from="1603214838021" duration="43002000" />
-      <workItem from="1603606831432" duration="52642000" />
+      <workItem from="1603606831432" duration="58392000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1603893574358</created>
@@ -220,7 +213,42 @@
       <option name="project" value="LOCAL" />
       <updated>1603893574358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update tasks after update current task">
+      <created>1603898536854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898536854</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update tasks after update current task">
+      <created>1603898976760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898976760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update tasks after update current task">
+      <created>1603899298476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603899298476</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update tasks after update current task">
+      <created>1603899425394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603899425394</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix logout">
+      <created>1603904096599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603904096600</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +267,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="update tasks after update current task" />
+    <MESSAGE value="fix logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix logout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603658711540">
@@ -250,6 +280,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="386" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1603356975889" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1603937920783">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1603937920783" />
     <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1603470943929">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -274,10 +308,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603214915771" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1603365087931">
+    <state x="297" y="161" key="run.anything.popup" timestamp="1603894155863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1603365087931" />
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1603894155863" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1603639448713">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
